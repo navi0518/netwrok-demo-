@@ -1,0 +1,38 @@
+/* styles.css */
+
+/* General styles */
+h1 {
+    text-align: center;
+    color: #007bff;
+    font-weight: 700;
+}
+
+.container {
+    margin-top: 6rem;
+}
+
+/* Form styles */
+#domainInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding box shadow */
+}
+
+#domainInput:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Result container styles */
+#resultContainer {
+    display: none; /* Hide by default */
+    margin-top: 1rem;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding box shadow */
+}
